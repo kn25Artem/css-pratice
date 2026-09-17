@@ -1,0 +1,71 @@
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: #0080ff;
+  padding: 20vh;
+  border: none;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; 
+  align-items: center;        
+}
+
+.header-text {  
+  color:#2c2c2c;  
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  padding: 4px;
+
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background:
+  linear-gradient(rgb(232, 229, 229, 0.7)) padding-box,
+  linear-gradient(45deg, #f6be17, #851fec, #04edbb) border-box;
+
+}
+main {
+  background-color: #00ffaa;
+  padding: 20vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;     
+  align-items: center;         
+}
+.main-text {
+  color:#151515;  
+  background-color: #fefefe;   
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background:
+  linear-gradient(rgb(232, 229, 229, 0.8)) padding-box,
+  linear-gradient(45deg, #ff0101, #8000ff, #1f02ff) border-box;
+
+}
+
+
+footer {
+  background-color: #f9aa17;
+  padding: 20vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start; 
+  align-items: center;         
+}
+.footer-text {
+  color:#2d2d2d;
+  background-color: #a1947a;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background:
+  linear-gradient(rgb(232, 229, 229, 0.78)) padding-box,
+  linear-gradient(45deg, #f61774, #4b2607, #33ed04) border-box;
+  
+}
